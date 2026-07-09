@@ -86,4 +86,4 @@ The maximum value of UNSIGNED LONG = 18446744073709551615
 
 4. 'A' is from 65 and 'a' is from 97.
 
-5. formatted output is written as %m.pX where *m* is the minimum field width, *p* is the precision. *%X* is is the variable.
+5. formatted output is written as %m.pX where *m* is the minimum field width, *p* is the precision. *X* is is the variable.
