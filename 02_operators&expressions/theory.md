@@ -150,9 +150,7 @@ if (a > b) /* This will be FALSE because b becomes a huge positive number! */
     /*Code goes here.*/
 }
 ```
-In this case the signed value is converted to unsigned which then starts counting from INT_MAX backwards.  
-
-
+In this case the signed value is converted to unsigned which then starts counting from INT_MAX backwards.
 
 
 
