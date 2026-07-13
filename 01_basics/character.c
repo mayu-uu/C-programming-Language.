@@ -5,6 +5,6 @@ int main(){
     printf("Enter a single character:\n");
     scanf("%c" , &c);
     int n = c;
-    printf("The ADCII value is:%d\n" , n);
+    printf("The ASCII value is:%d\n" , n);
     return 0;
 }
