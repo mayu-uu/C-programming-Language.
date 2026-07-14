@@ -4,11 +4,11 @@
 
 Total 5 arithmetic operators in C.
 
-1.             +        addition
-2.             -        subtraction
-3.             *        multplication
-4.             /        division
-5.             %        modulo(remainder)
+1.              +        addition
+2.              -        subtraction
+3.              *        multplication
+4.              /        division
+5.              %        modulo(remainder)
 
 Out of the 5 operators , modulo operators works only when both the operands are integers(preferably positive). Obviously division by 0 is not possible.
 
@@ -62,12 +62,12 @@ int c = sizeof(double); //returns 8
 
 ## Relational Operators
 
-1.             <         Less than
-2.             >         Greater than
-3.             <=        Less than equal to
-4.             >=        Greater than equal to
-5.             ==        Euqal to
-6.             !=        Not equal to
+1.              <         Less than
+2.              >         Greater than
+3.              <=        Less than equal to
+4.              >=        Greater than equal to
+5.              ==        Euqal to
+6.              !=        Not equal to
 
 The operators == and != are sometimes also called Equality operators.
 
@@ -77,9 +77,9 @@ These 6 operators form logical operations which returns either true(1) or false(
 
 There are three logical operators.
 
-1.               ||          Logical OR
-2.               &&          Logical AND
-3.                !          Logical NOT.
+1.                ||          Logical OR
+2.                &&          Logical AND
+3.                 !          Logical NOT.
 
 These operators often combine with the relational operators to form more complex logical operations.
 
@@ -115,15 +115,15 @@ int c = (a < b) ?  a : b;  // returns the minimum of two , in this case it is 0.
 
 ## Operator Precedence Groups.
 
-1.                 Unary operators       -, ++, --, !, sizeof(), (type)     R to L
-2.                 Arithmetic            *, /, %                            L to R
+1.                  Unary operators       -, ++, --, !, sizeof(), (type)     R to L
+2.                  Arithmetic            *, /, %                            L to R
                                  +, -                               L to R
-3.                 Relational            <, >, <=, >=                       L to R
-4.                 Equality              ==, !=                             L to R
-5.                 Logical AND           &&                                 L to R
-6.                 Logical OR            ||                                 L to R
-7.                 Conditional           ? :                                R to L
-8.                 Assignment            =, +=, -=, *=, /=, %=              R to L
+3.                  Relational            <, >, <=, >=                       L to R
+4.                  Equality              ==, !=                             L to R
+5.                  Logical AND           &&                                 L to R
+6.                  Logical OR            ||                                 L to R
+7.                  Conditional           ? :                                R to L
+8.                  Assignment            =, +=, -=, *=, /=, %=              R to L
 
 ### Some Common Mistakes
 
@@ -136,7 +136,7 @@ int x = 10;
 int y = x++ + ++x; //causes undefined behavior in some standards.
 ```
 
-Relying on multiple side effects may cause unpredictable results. We don't how the compiler evaluates the line during it's execution.
+Relying on multiple side effects may cause unpredictable results. We don't know how the compiler evaluates the line during it's execution.
 
 If x++ is evaluated first then the value comes out to be 120, but if ++x is evaluated first the the value is 121.  
 2.
@@ -172,12 +172,12 @@ In this case the signed value is converted to unsigned which then starts countin
 
 There are 6 bitwise operators
 
-1.              &         Bitwise AND
-2.              |         Bitwise OR
-3.              ~         Bitwise NOT
-4.              <<        Left Shift
-5.              >>        Right Shift
-6.              ^         Bitwise XOR
+1.               &         Bitwise AND
+2.               |         Bitwise OR
+3.               ~         Bitwise NOT
+4.               <<        Left Shift
+5.               >>        Right Shift
+6.               ^         Bitwise XOR
 
 It is a binary operator.
 We perform Bitwise operation Bit by Bit.
