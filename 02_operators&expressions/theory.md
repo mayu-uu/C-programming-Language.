@@ -123,7 +123,7 @@ int x = 10;
 int y = x++ + ++x; //causes undefined behavior in some standards.
 ```
 
-Relying on multiple side effects may cause unpredictable results. We don't how the compiler evaluates the line during it's execution.
+Relying on multiple side effects may cause unpredictable results. We don't know how the compiler evaluates the line during it's execution.
 
 If x++ is evaluated first then the value comes out to be 120, but if ++x is evaluated first the the value is 121.  
 2. 
@@ -151,6 +151,3 @@ if (a > b) /* This will be FALSE because b becomes a huge positive number! */
 }
 ```
 In this case the signed value is converted to unsigned which then starts counting from INT_MAX backwards.
-
-
-
