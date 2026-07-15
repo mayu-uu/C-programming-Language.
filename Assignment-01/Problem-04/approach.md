@@ -5,6 +5,7 @@
 First take input of the number using __scanf__ and store it in a variable $n$. Now check if the $n(mod 2)$ is equal to $0$ or $1$.
 
 $if n(mod 2)=0, that means the number is divisible by 2 i.e. even number$
+
 $if n(mod 2)=1, that means the number is not divisible by 2 i.e. odd number$
 ```c
 if(n%2==0){
