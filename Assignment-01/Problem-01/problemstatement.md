@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-(Changes from the remote repository)
-=======
-(Your local changes from commit d9194d3)
->>>>>>> d9194d3... update
+Write a C program that reads two values from the user, swaps their values without using a third variable and
+prints out the result.
