@@ -50,7 +50,7 @@ Since only 1 item was matched, scanf returns 1. If both were correct integers, i
 **Output**
 
 ```diff
-1
+Returned: 1
 ```
 
 ## Question 3
