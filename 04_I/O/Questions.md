@@ -23,7 +23,7 @@ Also the printf("Hello\n"); is executed.
 
 ```diff
 Hello
-12
+6
 ```
 
 ## Question 2
