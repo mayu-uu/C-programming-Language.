@@ -3,3 +3,12 @@ prints out the result.
 
 
 **Approach:**
+
+____
+
+\
+ \    
+ /    d X ⌊n/d⌋
+/
+____
+d|n
