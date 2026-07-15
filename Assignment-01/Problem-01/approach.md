@@ -1,7 +1,6 @@
-$$
-\section{Approach for Swapping Two Numbers}
+#Approach for Swapping Two Numbers
 
-\subsection{Method01- Using Another Variable}
+##Method01- Using Another Variable
 
-\paragraph{Let's say our numbers are $A$ and $B$ stored in varibale $a$ and $b$ respectively. Now take a third variable $s$. First take assign the variable $s$ the value at $a$, then update $a$ to $b$ and update $b$ to $s$}
-$$
+Let's say our numbers are $A$ and $B$ stored in varibale $a$ and $b$ respectively. Now take a third variable $s$. First take assign the variable $s$ the value at $a$, then update $a$ to $b$ and update $b$ to $s$
+
