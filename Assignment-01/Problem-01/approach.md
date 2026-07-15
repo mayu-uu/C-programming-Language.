@@ -9,3 +9,14 @@ Let's say our numbers are $A$ and $B$ stored in variable $a$ and $b$ respectivel
 s=a;
 a=b;
 b=s;
+```
+## Method02- Using Addition Operation(Without using a third variable)
+
+Let's say our numbers are $A$ and $B$ stored in variable $a$ and $b$ respectively. Now update $a$ to $a+b$ and update $b$ to $a-b$. Then update $a$ to $a-b$.
+
+```c
+//swapping logic
+a=a+b;
+b=a-b;
+a=a-b;
+```
