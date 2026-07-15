@@ -2,5 +2,4 @@ Write a C program that reads two values from the user, swaps their values withou
 prints out the result.
 
 
-\textbf{Approach: }
-
+**Approach:**
