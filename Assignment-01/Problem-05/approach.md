@@ -1,0 +1,3 @@
+ # Approach for Output of the dividend of a larger number upon an smaller number
+
+ First we identify the largest and the smallest number in the given inputs. Take a variable $m1$(stores maximum value), $m2$(stores minimum value). If first number is smaller than the second then store the second number in $m1$ and the first number in $m2$ and vice-versa. Take another variable ans use the %lf format specifier to get the digits after the decimal places.

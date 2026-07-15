@@ -1,0 +1,5 @@
+# Approach for Finding Maximum and Minimum Numbers among Three Numbers
+
+Let's say the three given numbers are stored in variable $a$, $b$, $c$. Now we define two variables $m1$, $m2$ which have same data type as a$, $b$, $c$ and assign both of them as $a$.
+Now we'll check if $m1$ if greater than or equal to $b$, if yes then we'll update $m1$ to $b$, else $m1$ stays as it is, next we'll check if $m1$ is greater than or equal to $c$, if yes then $m1$ gets updated to $c$, else it stays as it is. Hence we get the minimum of $a$, $b$, $c$.
+In the same way, we'll check if $m2$ if lesser than or equal to $b$, if yes then we'll update $m2$ to $b$, else $m2$ stays as it is, next we'll check if $m2$ is lesser than or equal to $c$, if yes then $m2$ gets updated to $c$, else it stays as it is. Hence we get the maximum of $a$, $b$, $c$.
