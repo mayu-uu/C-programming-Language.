@@ -1,1 +1,3 @@
+# Question-7
+
 Accept three integers and find their average. Next display which numbers are below and above the average value.
