@@ -20,7 +20,7 @@ If $2 \pi r = 2 (l+b)$
 $=> r = \frac{(l+b)}{\pi}$
 So the ratio of the Area of the circle and the rectangle is:
 $\frac{\pi r^2}{lb}$
-$\frac{\pi (\frac{(l+b)}{\pi})^2}{lb}$
+$=> \frac{\pi (\frac{(l+b)}{\pi})^2}{lb}$
 
 
 For $\pi$ we will use the __acos()__ of $-1$
