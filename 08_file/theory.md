@@ -125,3 +125,82 @@ int main(){
     fgets(buff , n , stdin);
 }
 ```
+
+## Usinf foef()
+
+1. It returns true (1) if the end of the file is reached; otherwise it returns false (0).
+
+2. It can be used for both text and binary files.
+
+```diff
+int feof(FILE *fp);
+```
+
+Example
+
+```c
+while(!feof(fp)){
+    char ch = fgetc(fp);
+}
+```
+
+## The rewind() function
+
+1. It resets the file position pointer indicator to the beginning of the file specified as its argument.
+
+```c
+void rewind(FILE *fp);
+```
+
+## Erasing a File
+
+1. Returns zero if successful; otherwise a non-zero value.
+
+```c
+int remove(const char *filename);
+```
+
+## Flushing
+
+1. Writes the content of any buffered data to the associated file.
+
+2. If _fp_ is NULL, all opened files are flushed.
+
+```c
+int fflush(FILE *fp);
+```
+
+## fread() and fwrite()
+
+1. It is used to write and read data which are longer than 1 byte.
+
+_READING THE DATA FROM A FILE_
+
+```c
+size_t fread(void *buffer, size_t num_bytes, size_t count,  FILE *fp);
+```
+
+$\implies$ Buffer is pointer to a region of memory that will receive the data from the file.\
+$\implies$ Count is number items read with each item being num byte bytes in length.\
+$\implies$ Returns the number of items read.
+
+_WRITING A DATA FILE_
+
+```c
+size_t fwrite(const void *buffer, size_t num_bytes, size_t count, FILE *fp);
+```
+
+2. Typically, used for binary files.
+
+3. Useful for reading and writing user-defined data types.
+
+## fprintf() & fscanf()
+
+1. Not always efficient, extra overhead.
+
+2. File content is human readable.
+
+```c
+int fprintf(FILE *fp, const char *control_string, ...);
+int fscanf(FILE *fp, const char *control_string, ...);
+```
